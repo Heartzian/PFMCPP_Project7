@@ -85,7 +85,7 @@ int main()
     DragonSlayer dragonSlayer { "Virgil the Dragon Slayer", 8, 5 };
     
     std::cout << "\nstart of battle" << std::endl;
-/*
+
     paladin.defend();
     dragon.attack( paladin );
     dwarf.attack( dragon );
@@ -107,7 +107,7 @@ int main()
     std::vector<Character*> characters { &dwarf, &paladin, &dragon, &dragonSlayer };
     for( auto* character : characters )
         character->printStats();
-    */
+    
     return 0;
 }
 

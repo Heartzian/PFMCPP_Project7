@@ -3,7 +3,6 @@
 #include "Paladin.h"
 #include "DragonSlayer.h"
 #include "Dragon.h"
-#include <cassert>
 
 void DefensiveItem::use(Character* character)
 {

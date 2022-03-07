@@ -111,7 +111,7 @@ void Character::defeatOther(int& value, int& initialVal, float adjustValue)
     { 
         value = initialVal; 
     }
-    value *= (0.5f + adjustValue);
+    value += value * 0.1f;
     initialVal = value;
 }
 

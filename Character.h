@@ -60,5 +60,5 @@ private:
     std::unique_ptr<int> initialHitPoints, initialArmorLevel, initialAttackDamage;
     
     void attackInternal(Character& other);
-    void defeatOther(int& value, int& initialVal, float adjustValue);
+    void defeatOther(int& value, int& initialVal);
 };
